@@ -1,0 +1,11 @@
+-library gphoto2
+-I /usr/include/arm-linux-gnueabihf
+-I /usr/include/c++/4.6/arm-linux-gnueabihf
+-I /usr/include/linux
+-package com.angryelectron.libgphoto2
+-f
+-v
+-o ./
+-runtime JNA
+-mode Directory 
+/home/pi/gphoto-suite-install/include/gphoto2/gphoto2.h
